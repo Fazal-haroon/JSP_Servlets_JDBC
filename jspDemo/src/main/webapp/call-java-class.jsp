@@ -1,3 +1,4 @@
+<%@ page import="com.example.jspdemo.classCalledByJSP" %>
 <%--
   Created by IntelliJ IDEA.
   User: Fazal
@@ -13,6 +14,8 @@
 <body>
 
 Let's have some function(convert lower to upper case): <%= com.example.jspdemo.classCalledByJSP.convertLowerToUpperCase("lower case hmmm")%>
+
+by importing the package with class on top then call this method: <%= classCalledByJSP.convertLowerToUpperCase("import class")%>
 
 </body>
 </html>
