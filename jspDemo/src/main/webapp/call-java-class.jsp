@@ -14,7 +14,7 @@
 <body>
 
 Let's have some function(convert lower to upper case): <%= com.example.jspdemo.classCalledByJSP.convertLowerToUpperCase("lower case hmmm")%>
-
+<br /> <br />
 by importing the package with class on top then call this method: <%= classCalledByJSP.convertLowerToUpperCase("import class")%>
 
 </body>
