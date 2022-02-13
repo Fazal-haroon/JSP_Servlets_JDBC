@@ -16,11 +16,11 @@
 //println doesn't work in jsp like normal java program.
 //the below is the example of scriptlet example
 <%
-//    <p>
+
     for(int i = 1; i <= 5; i++){
-        out.println("<br /> I write "+ i +" line of code");
+//        out.println("<br /> I write "+ i +" line of code");
     }
-//    </p>
+
 %>
 
 
