@@ -12,5 +12,10 @@
 </head>
 <body>
 Converting a string to uppercase: <%= new String("Hello World").toUpperCase() %>
+<br /><br />
+2 multiplied by 5 equals: <%= 2*5 %>
+<br/><br/>
+Is 100 is greater than 50: <%= 100 > 50 %>
+
 </body>
 </html>
